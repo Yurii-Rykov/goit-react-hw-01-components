@@ -1,3 +1,4 @@
+import Container from './Container/Container';
 import Profile from '../components/Profile/Profile';
 import user from '../database/user';
 import Statistics from '../components/Statistics/Statistics';
@@ -9,24 +10,17 @@ import items from '../database/transactions';
 
 
 
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
+    <Container >
+      
       <Profile user={user} />
       <Statistics data={data} title={"Upload stats"} />
       <FriendList friends={friends} />
       <TransactionHistory items={items} />;
 
-    </div>
+    </Container>
 
   );
 };
