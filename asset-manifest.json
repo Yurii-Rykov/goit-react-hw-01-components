@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Yurii-Rykov/goit-react-hw-01-components/static/css/main.7acaea2f.css",
-    "main.js": "/Yurii-Rykov/goit-react-hw-01-components/static/js/main.07d3183d.js",
+    "main.js": "/Yurii-Rykov/goit-react-hw-01-components/static/js/main.172ea293.js",
     "index.html": "/Yurii-Rykov/goit-react-hw-01-components/index.html",
     "main.7acaea2f.css.map": "/Yurii-Rykov/goit-react-hw-01-components/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/Yurii-Rykov/goit-react-hw-01-components/static/js/main.07d3183d.js.map"
+    "main.172ea293.js.map": "/Yurii-Rykov/goit-react-hw-01-components/static/js/main.172ea293.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/js/main.172ea293.js"
   ]
 }
