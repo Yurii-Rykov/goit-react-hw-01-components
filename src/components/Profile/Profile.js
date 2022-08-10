@@ -33,10 +33,9 @@ const Profile = ({ user }) => {
     </div>
   );
 };
-
-export default Profile;
-
+ 
 Profile.propTypes = {
+  user:  PropTypes.shape({
   username: PropTypes.string,
   avatar: PropTypes.string,
   tag: PropTypes.string,
@@ -44,4 +43,7 @@ Profile.propTypes = {
   followers: PropTypes.number,
   views: PropTypes.number,
   likes: PropTypes.number,
-};
+})
+}
+
+export default Profile;
